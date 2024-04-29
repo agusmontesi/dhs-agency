@@ -1,13 +1,11 @@
 import React from "react";
 import Navbar from "./Navbar";
-// import Fade from "react-reveal/Fade";
 
 function Header() {
   return (
     <div className="from-[#2B263F] to-[#231E3D] bg-gradient-to-b w-full  px-10 lg:px-28 lg:h-screen overflow-hidden">
       <Navbar className="z-50" />
       <div className="lg:flex lg:pt-8 lg:pb-8">
-        {/* <Fade left cascade> */}
           <div className="lg:w-[800px] container  xl:pt-15 lg:pt-10 pt-20">
           <h1 class="font-[1000] xl:text-[4.2rem] lg:text-[3rem] md:text-[3.2rem] text-3xl lg:w-[79%] text-white xl:leading-[5rem] md:leading-[4rem]">
             Craft killer <span class="text-[#6664F1]">landing pages</span> & dominate <span class="text-[#C94AF0]">SEO</span>. We're your growth obsessed agency.
@@ -27,17 +25,15 @@ function Header() {
               </p>
             </div>
           </div>
-        {/* </Fade> */}
 
         <div className="pr-24 lg:pr-0">
-          {/* <Fade right cascade> */}
+          {/* <right cascade> */}
             <div className="boy-illustration">
               <img
                 src="https://zesty-cajeta-af510d.netlify.app/boy-experiencing-digital-world-1.svg"
                 alt="Boy Experiencing Digital World"
               />
             </div>
-          {/* </Fade> */}
         </div>
       </div>
     </div>

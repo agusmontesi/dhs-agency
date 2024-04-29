@@ -1,11 +1,9 @@
 import React from 'react'
-// import Fade from "react-reveal/Fade";
 
 function Experience() {
   return (
     <div className="bg-[#211D32] lg:px-28 pt-14 px-10 pb-10" id="about">
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        {/* <Fade bottom cascade> */}
           <div>
             <img
               src="https://zesty-cajeta-af510d.netlify.app/employee.svg"
@@ -28,7 +26,6 @@ function Experience() {
               Contact experts
             </button>
           </div>
-        {/* </Fade> */}
       </div>
     </div>
   );
