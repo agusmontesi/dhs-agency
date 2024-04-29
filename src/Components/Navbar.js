@@ -30,7 +30,7 @@ export default function Navbar({ className }) {
     <Disclosure as="nav" className={`bg-transparent ${className}`}>
       {({ open }) => (
         <>
-          <div className="max-w-7xl pt-8">
+          <div className="pt-8">
             <div className="relative flex flex-row-reverse lg:flex-row items-center justify-between h-16">
               <div className="inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -47,8 +47,8 @@ export default function Navbar({ className }) {
                 <div className="relative right-4 flex-shrink-0 flex items-center">
                   <img src={Logo} alt="logo" className="h-20 w-20" />
                 </div>
-                <div className="hidden sm:block sm:ml-6">
-                  <div className="ml-80 md:ml-[8rem] xl:ml-80 flex space-x-4 relative top-4">
+                <div className="hidden sm:block relative sm:ml-6">
+                  <div className="ml-80 md:ml-[8rem] xl:ml-80 flex space-x-4 relative top-4 links-nav">
                     {navs.map((item) => (
                       <HashLink
                         onClick={() => handleActive(item)}
