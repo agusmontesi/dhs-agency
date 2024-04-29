@@ -1,6 +1,4 @@
-Breed is a digital agency and here's a landing page for breed. Tech used: React and Tailwind CSS.
-
-![localhost_3001_](https://user-images.githubusercontent.com/83133493/171520043-24a4e94e-5c5f-44c1-a4e4-3a01e3f342fd.png)
+DHS website. Tech used: React and Tailwind CSS.
 
 
 # Getting Started with Create React App
