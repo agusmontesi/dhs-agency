@@ -9,6 +9,7 @@ import './app.css'
 // import Preloader from './Components/Preloader';
 import Footer from './Components/Footer';
 import ScrollArrow from './Components/ScrollArrow';
+import ContactUs from './Components/ContactUs';
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Services id="services" />
         <Experience />
         <Projects id="projects" />
+        <ContactUs id="contactUs" />
         <Footer />
     </div>
   );
