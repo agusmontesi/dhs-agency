@@ -18,15 +18,14 @@ function Experience() {
               Get an amazing experience with our top-quality team.
             </h1>
             <p className="text-[#696984] pt-5 pb-5 lg:w-[400px]">
-              Trusted by 5000+ companies worldwide. Trusted by 5000+ companies
-              worldwide
+            At DHS, we believe in creating exceptional experiences that not only look great but also deliver tangible results for our clients. We've helped businesses of all sizes achieve their digital goals, from increasing website traffic and conversions to enhancing brand awareness and customer engagement.
             </p>
             <button className="rounded px-7 py-3 bg-[#6366F1] text-white relative group hover:text-white overflow-hidden c-btn tracking-wider">
               <span className="absolute inset-0 bg-[#5558ff]"></span>
               <span className="absolute inset-0 flex justify-center items-center">
-                Learn More
+                Contact experts
               </span>
-              Learn More
+              Contact experts
             </button>
           </div>
         </Fade>

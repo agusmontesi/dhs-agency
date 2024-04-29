@@ -1,6 +1,6 @@
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import React, { useState } from "react";
-
+import Logo from '../assets/dhsLogo.png'
 import { Disclosure } from "@headlessui/react";
 import { HashLink } from "react-router-hash-link";
 
@@ -26,7 +26,7 @@ export default function Navbar({ className }) {
     <Disclosure as="nav" className={`bg-transparent ${className}`}>
       {({ open }) => (
         <>
-          <div className="max-w-7xl">
+          <div className="max-w-7xl pt-8">
             <div className="relative flex flex-row-reverse lg:flex-row items-center justify-between h-16">
               <div className="inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -41,7 +41,7 @@ export default function Navbar({ className }) {
               </div>
               <div className=" mx-auto ml-0 flex flex-start w-[80%] sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center pl-0">
-                  <h1 className="font-bold text-white">BR33D</h1>
+                  <img src={Logo} alt="logo" className="h-20 w-20" />
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="ml-80 md:ml-[8rem] xl:ml-80 flex space-x-4">

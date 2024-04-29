@@ -24,8 +24,6 @@ function App() {
         <Services id="services" />
         <Experience />
         <Projects id="projects" />
-        <Clients />
-        <Blog />
         <Footer />
     </div>
   );

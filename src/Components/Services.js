@@ -8,12 +8,12 @@ function Services() {
         <div className="w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r"></div>
         <h1 className="text-white text-4xl font-semibold pt-3">Our Services</h1>
         <p className="text-[#696984] font-semibold pt-4 whitespace-nowrap">
-          Trusted by 5000+ Companies Worldwide
+          Trusted by good partners, not clients.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-10 lg:pb-20">
           <div className="p-8 bg-[#211D32] flex text-white justify-between font-bold cursor-pointer relative group">
-            UI/UX Design
+            Web Development
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -30,7 +30,7 @@ function Services() {
             </svg>
           </div>
           <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
-            Digital Strategy
+          SEO Optimization  
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -115,7 +115,7 @@ function Services() {
             </svg>
           </div>
           <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
-            Brand Identity
+          Digital Strategy
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -149,7 +149,7 @@ function Services() {
             </svg>
           </div>
           <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
-            Media Planing
+            Email Marketing
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"

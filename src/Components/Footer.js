@@ -12,12 +12,9 @@ function Footer() {
       <Fade bottom cascade>
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20">
           <div>
-            <h1 className="text-white font-semibold lg:text-2xl">BR33D</h1>
+            <h1 className="text-white font-semibold lg:text-2xl">DHS</h1>
             <p className="text-[#7A7893] xl:w-[559px] pt-4">
-              We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            At DHS, we are a passionate team of web developers, app builders, SEO specialists, and digital marketing experts dedicated to propelling your brand forward. We understand the ever-evolving digital landscape and the importance of a strong online presence.
             </p>
             <div className="grid lg:grid-cols-1 xl:grid-cols-2 grid-cols-1 md:grid-cols-1 pt-9">
               <div className="flex gap-2">
@@ -58,7 +55,7 @@ function Footer() {
                 </svg>
                 <div>
                   <p className="text-[#7A7893] text-sm">Contact us at</p>
-                  <h3>breedagency@gmail.com</h3>
+                  <h3>info@dhs.com</h3>
                 </div>
               </div>
             </div>
@@ -143,7 +140,7 @@ function Footer() {
             <p>Terms of Use</p>
           </div>
           <div className="text-[#7A7893] lg:justify-end justify-start pt-4 flex md:justify-start md:pt-4 text-xs md:text-base lg:pt-0">
-            © 2000-2021, All Rights Reserved
+            © 2024, All Rights Reserved
           </div>
         </div>
       </Fade>
