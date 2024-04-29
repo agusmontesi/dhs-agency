@@ -46,7 +46,7 @@ function ContactUs() {
                 className="block text-[#696984] text-lg font-semibold mb-2"
                 htmlFor="name"
               >
-                Nombre
+                Name
               </label>
               <input
                 type="text"
@@ -63,7 +63,7 @@ function ContactUs() {
                 className="block text-[#696984] text-lg font-semibold mb-2"
                 htmlFor="email"
               >
-                Correo electrónico
+                Email
               </label>
               <input
                 type="email"
@@ -80,7 +80,7 @@ function ContactUs() {
                 className="block text-[#696984] text-lg font-semibold mb-2"
                 htmlFor="message"
               >
-                Mensaje
+                Message
               </label>
               <textarea
                 id="message"
