@@ -96,7 +96,7 @@ function ContactUs() {
                 type="submit"
                 className="bg-[#7361F2] hover:bg-[#674CF2] text-white font-bold text-xl py-3 px-6 rounded focus:outline-none focus:shadow-outline"
               >
-                Enviar
+                Let's talk
               </button>
             </div>
           </form>

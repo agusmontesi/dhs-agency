@@ -40,11 +40,11 @@ export default function Navbar({ className }) {
                 </Disclosure.Button>
               </div>
               <div className=" mx-auto ml-0 flex flex-start w-[80%] sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center pl-0">
+                <div className="relative right-4 flex-shrink-0 flex items-center">
                   <img src={Logo} alt="logo" className="h-20 w-20" />
                 </div>
                 <div className="hidden sm:block sm:ml-6">
-                  <div className="ml-80 md:ml-[8rem] xl:ml-80 flex space-x-4">
+                  <div className="ml-80 md:ml-[8rem] xl:ml-80 flex space-x-4 relative top-4">
                     {navs.map((item) => (
                       <HashLink
                         onClick={() => handleActive(item)}
@@ -66,7 +66,7 @@ export default function Navbar({ className }) {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 contact-btn">
-                <button className="text-white border rounded px-7 py-2 md:px-5 hover:text-white c-btn relative tracking-wider overflow-hidden">
+                <button className="text-white border rounded px-7 py-2 md:px-5 hover:text-white c-btn relative tracking-wider overflow-hidden relative bottom-1">
                   <span className="absolute inset-0 bg-gradient-to-br from-[#6664F1] to-[#C94AF0]"></span>
                   <span className="absolute inset-0 flex justify-center items-center">
                     Contact Us
