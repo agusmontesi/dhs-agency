@@ -4,12 +4,12 @@ import { FiYoutube } from "react-icons/fi";
 import { AiOutlineSkype } from "react-icons/ai";
 import { FiFigma } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 
 function Footer() {
   return (
     <div className="bg-[#211D32]   lg:px-28 pt-14 px-10 pb-10">
-      <Fade bottom cascade>
+      {/* <Fade bottom cascade> */}
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20">
           <div>
             <h1 className="text-white font-semibold lg:text-2xl">DHS</h1>
@@ -143,7 +143,7 @@ function Footer() {
             © 2024, All Rights Reserved
           </div>
         </div>
-      </Fade>
+      {/* </Fade> */}
     </div>
   );
 }
