@@ -25,7 +25,7 @@ function App() {
         <Services id="services" />
         <Experience />
         <Projects id="projects" />
-        <ContactUs id="contactUs" />
+        <ContactUs id="contact" />
         <Footer />
     </div>
   );

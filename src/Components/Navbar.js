@@ -19,9 +19,13 @@ export default function Navbar({ className }) {
   const [navs, setNavs] = useState(navigation);
 
   const handleActive = (nav) => {
-    navs.forEach((e) => (e.current = e.name === nav.name));
-    setNavs([...navs]);
+    const updatedNavs = navs.map(item => ({
+      ...item,
+      current: item.name === nav.name
+    }));
+    setNavs(updatedNavs);
   };
+
   return (
     <Disclosure as="nav" className={`bg-transparent ${className}`}>
       {({ open }) => (
@@ -65,14 +69,19 @@ export default function Navbar({ className }) {
                   </div>
                 </div>
               </div>
+              {/* Botón "Contact Us" fuera de las opciones de navegación */}
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 contact-btn">
-                <button className="text-white border rounded px-7 py-2 md:px-5 hover:text-white c-btn relative tracking-wider overflow-hidden relative bottom-1">
+                <HashLink
+                  smooth
+                  to="#contact"
+                  onClick={() => handleActive({ name: "Contact" })}
+                  className="text-white border rounded px-7 py-2 md:px-5 hover:text-white c-btn relative tracking-wider overflow-hidden relative bottom-1"
+                >
                   <span className="absolute inset-0 bg-gradient-to-br from-[#6664F1] to-[#C94AF0]"></span>
-                  <span className="absolute inset-0 flex justify-center items-center">
+                  <span className="inset-0 flex justify-center items-center">
                     Contact Us
                   </span>
-                  Contact Us
-                </button>
+                </HashLink>
               </div>
             </div>
           </div>

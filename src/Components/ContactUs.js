@@ -27,7 +27,7 @@ function ContactUs() {
   };
 
   return (
-    <div className="contact-container bg-[#231E3D] pt-14 lg:px-28 px-10 pb-10" id="contact-us">
+    <div className="contact-container bg-[#231E3D] pt-14 lg:px-28 px-10 pb-10" id="contact">
       <div className="w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r"></div>
       <div className="xl:flex xl:flex-row">
         <div className="text-section flex-1 align-center">
