@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import logo from '../assets/dhsLogo.png'
 
 function Header() {
   return (
@@ -28,10 +29,10 @@ function Header() {
 
         <div className="pr-24 lg:pr-0">
           {/* <right cascade> */}
-            <div className="boy-illustration">
+            <div className="rocket-illustration">
               <img
-                src="https://zesty-cajeta-af510d.netlify.app/boy-experiencing-digital-world-1.svg"
-                alt="Boy Experiencing Digital World"
+                src={logo}
+                alt="rocket-illustration"
               />
             </div>
         </div>
